@@ -6,7 +6,7 @@
 
 body {
   font-family: "Brush Script MT","Segoe Print", cursive;
-  background: linear-gradient(180deg, #FF65C3,#FF65C3, #f08cca);
+  background: linear-gradient(180deg, #FF65C3,#FF65C3, #f676C5);
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -56,10 +56,10 @@ p {
   opacity: 0.9;
 }
 
-.whatsapp { background: #d291bc; }
-.instagram { background: #d8b4fe; }
-.email { background: #a5f3fc; }
-.localizacao { background: #fde68a; }
+.whatsapp { background: #D14D72 }
+.instagram { background: #F62990; }
+.email { background: #92C9DA; }
+.localizacao { background: #FDE68a; }
 
 .footer{
   text-align: center;
