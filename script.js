@@ -1,0 +1,1 @@
+console.log("Landing page de contato carregada com sucesso.");
