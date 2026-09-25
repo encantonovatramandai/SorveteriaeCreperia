@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Encanto - Cardapio</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+</head>
+<body>
+  <main class="container">
+    <img src="logo.jpg" alt="Logo da empresa" class="logo" />
+
+    <h1>Especialistas em encantar o seu paladar</h1>
+    <p>Confira nosso delicioso Cardapio</p>
+
+    <div class="secao-carrossel">
+      <div class="swiper meu-carrossel">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="foto1.jpg" alt="Sorvete Expresso" />
+            <span class="legenda-slide">Sorvete Expresso</span>
+          </div>
+          <div class="swiper-slide">
+            <img src="foto2.jpg" alt="Buffet de Sorvete" />
+            <span class="legenda-slide">Buffet de Sorvete</span>
+          </div>
+          <div class="swiper-slide">
+            <img src="foto3.jpg" alt="Picoles Sorvebom" />
+            <span class="legenda-slide">Picolés Sorvebom</span>
+          </div>
+          <div class="swiper-slide">
+            <img src="foto4.jpg" alt="Crepe" />
+            <span class="legenda-slide">Crepes</span>
+          </div>
+          <div class="swiper-slide">
+            <img src="foto5.jpg" alt="Açai" />
+            <span class="legenda-slide">Açai</span>
+          </div>
+          <div class="swiper-slide">
+            <img src="foto6.jpg" alt="Salada de Frutas" />
+            <span class="legenda-slide">Salada de Frutas</span>
+          </div>
+          <div class="swiper-slide">
+            <img src="foto7.jpg" alt="Banana Split" />
+            <span class="legenda-slide">Banana Split</span>
+          </div>
+          <div class="swiper-slide">
+            <img src="foto8.jpg" alt="Waffle com Sorvete" />
+            <span class="legenda-slide">Waffle com Sorvete</span>
+          </div>
+          <div class="swiper-slide">
+            <img src="foto9.jpg" alt="Sangue de Dragão" />
+            <span class="legenda-slide">Sangue de Dragão</span>
+          </div>
+          <div class="swiper-slide">
+            <img src="foto10.jpg" alt="MilkShake" />
+            <span class="legenda-slide">MilkShake</span>
+          </div>
+        </div>
+
+        <!-- Botões de Navegação -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <!-- Paginação (Bolinhas) -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <a
+      class="btn inicio"
+      href="index.html"
+      target="_blank"
+      rel="noopener"
+    >
+      <i class="fas fa-comments"></i> Fale Conosco
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.meu-carrossel', {
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
+  </main>
+
+  <footer class="footer">
+    © 2026 RA: 2522879 - Todos os direitos reservados. Desenvolvido por Jorge
+    Daniel Halmenschlager.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

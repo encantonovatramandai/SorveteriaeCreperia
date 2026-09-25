@@ -5,14 +5,15 @@
 }
 
 body {
-  font-family: "Brush Script MT","Segoe Print", cursive;
-  background: linear-gradient(180deg, #FF65C3,#FF65C3, #f676C5);
+  font-family: "Brush Script MT", "Segoe Print", cursive;
+  background: linear-gradient(180deg, #FF65C3, #FF65C3, #f676C5);
   color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
+/* Estrutura da pagina */
 .container {
   text-align: center;
   max-width: 320px;
@@ -21,7 +22,8 @@ body {
   flex: 1;
 }
 
-.logo{
+/* Logo centralizada com cantos arredondados */
+.logo {
   width: 100%;
   max-width: 220px;
   margin-bottom: 25px;
@@ -40,6 +42,7 @@ p {
   color: #fff;
 }
 
+/* Estilo dos Botões */
 .btn {
   display: block;
   padding: 15px;
@@ -56,13 +59,88 @@ p {
   opacity: 0.9;
 }
 
-.whatsapp { background: #D14D72 }
+/* Cores Botões Index */
+.Cardapio { background: #D14D72; }
+.Sobre { background: #A0CEFB; }
+.whatsapp { background: #8F70A7; }
 .instagram { background: #F62990; }
 .email { background: #92C9DA; }
 .localizacao { background: #F0D494; }
 
-.footer{
+/* Cor Botão Cardapio - Sobre */
+.inicio { background: #F0D494; }
+
+/* Estrutura do Rodapé */
+.footer {
   text-align: center;
   padding: 15px;
   font-size: 14px;
+}
+
+/* Estilos para a página Sobre */
+.texto-sobre {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.imagem-sobre {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  margin: 0 auto 25px auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* o elemento important utilizado para sobscrever regras*/
+.meu-carrossel {
+  padding-bottom: 30px !important;
+  position: relative;
+}
+
+/* Imagens ajustadas em 3:4 */
+.swiper-slide img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+}
+
+/* layout legenda carrocel  */
+.legenda-slide {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Define cor das setas do carrossel ( importante para sobscrever regras)*/
+.swiper-button-next,
+.swiper-button-prev {
+  color: #F0D494 !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #F0D494 !important;
+}
+
+/* Paginação (Bolinhas) poscionadas na parte inferior */
+.swiper-pagination {
+  bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+  background: #ffffff !important;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background: #F0D494 !important;
+  opacity: 1;
 }
