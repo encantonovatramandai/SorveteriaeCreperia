@@ -1,1 +1,1 @@
-console.log("Landing page de contato carregada com sucesso.");
+console.log("Landing page Plus da Encanto Sorveteria e Creperia carregada com sucesso.");

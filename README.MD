@@ -1,12 +1,14 @@
 # Landing Page de Contato
 
-Landing page simples e estática desenvolvida com HTML5, CSS3 e JavaScript.
+Landing page plus simples e estática desenvolvida com HTML5, CSS3 e JavaScript.
 
 ## Funcionalidades
 - Botão de contato via WhatsApp
 - botao com Link direto para email
 - Botão de contato via Instagram
 - Botão para Navegação GPS
+- Botão para cardapio
+- Botão Sobre
 
 
 ## Tecnologias
